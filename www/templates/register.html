@@ -1,0 +1,47 @@
+<ion-view view-title="Register" hide-nav-bar="true" class="bg">
+  <ion-content has-bouncing="false">
+        <form name="registrationForm" ng-submit="register(registrationForm, data)" class="invision-form" novalidate>
+            <div class="list list-inset">
+                <div class="item logo-big"> <img src="img/logo.png" alt="logo" />
+                </div>
+                <span id="regMsg"></span>
+                 <span class="assertive" ng-if="registrationForm.$submitted" ng-show="registrationForm.firstname.$error.required"><small>* This field is required !</small></span>
+                <label class="item item-input">
+                    <input type="text" placeholder="First Name" name="firstname"  ng-model="data.firstname" required>
+                </label>
+                <span class="assertive" ng-if="registrationForm.$submitted" ng-show="registrationForm.lastname.$error.required"><small>* This field is required !</small></span>
+                <label class="item item-input">
+                    <input type="text" placeholder="Last Name" name="lastname" ng-model="data.lastname" required>
+                </label>
+                <span class="assertive" ng-if="registrationForm.$submitted" ng-show="registrationForm.email.$error.required"><small>* This field is required !</small></span>
+                <span class="assertive" ng-if="registrationForm.$submitted" ng-show="registrationForm.email.$error.email"><small>* Please enter a valid email address !</small></span>
+                <label class="item item-input">
+                    <input type="email" placeholder="Email" name="email" ng-model="data.email" required>
+                </label>
+                <span class="assertive" ng-if="registrationForm.$submitted" ng-show="registrationForm.mobile.$error.required"><small>* This field is required !</small></span>
+                <span class="assertive" ng-if="registrationForm.$submitted" ng-show="registrationForm.mobile.$error.number"><small>* Please enter numbers only !</small></span>
+                <label class="item item-input">
+                    <input type="number" placeholder="Mobile" name="mobile" ng-model="data.mobile" required>
+                </label>
+                <label class="item item-input">
+                    <input type="text" placeholder="Country" name="country" ng-model="data.country">
+                </label>
+                <label class="item item-input">
+                    <input type="text" placeholder="Currency" name="currency" ng-model="data.currency">
+                </label>
+                <span class="assertive" ng-if="registrationForm.$submitted" ng-show="registrationForm.password.$error.required"><small>* This field is required !</small></span>
+                <span class="assertive" ng-if="registrationForm.$submitted" ng-show="registrationForm.password.$error.minlength"><small>* Please Enter 4 digit password !</small></span>
+                <span class="assertive" ng-if="registrationForm.$submitted" ng-show="registrationForm.password.$error.maxlength"><small>* Please Enter 4 digit password !</small></span>
+                <label class="item item-input">
+                    <input type="password" placeholder="Password" name="password" ng-model="data.password" ng-minlength="4" ng-maxlength="4" required>
+                </label>
+                <label class="item form-button">
+                    <button class="button button-block button-light" type="submit">Register</button>
+                </label>
+                <div class="row form-links">
+                    <div class="col center-align"><a data-ui-sref="login">Back to Login</a></div>
+                </div>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

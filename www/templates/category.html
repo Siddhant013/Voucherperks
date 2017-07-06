@@ -1,0 +1,31 @@
+<ion-view class="bg">
+  <ion-nav-title>{{itemsCtrl.category.title}}</ion-nav-title>
+  
+  <ion-pane>
+    <ion-content>
+      <ion-list>
+        <ion-item class="category-ion-item" data-ui-sref="app.item({itemId:1})">
+          <div class="row row-wrap category-items" ng-repeat="x in arr">
+            <div class="category-item-image col col-25"> <img  alt="30% flat discount" src="http://studio-tesseract.co/voucherperks/uploads/coupons/{{x.image}}" style="padding:6px 6px 6px 6px;"> </div>
+            <div class="category-item-tools col col-75">
+              <h3 class="ng-binding" ng-if="x.offer == 1">10% flat discount</h3>
+              <h3 class="ng-binding" ng-if="x.offer == 2">20% flat discount</h3>
+              <h3 class="ng-binding" ng-if="x.offer == 3">30% flat discount</h3>
+              <h3 class="ng-binding" ng-if="x.offer == 4">Other</h3>
+              <div class="row">
+                <div class="col col-40 ng-binding"><i class="icon ion-radio-waves"></i>{{x.cname}}</div>
+                <div class="col col-60 right-align item-category ng-binding"><i class="icon ion-location"></i>10 Km away</div>
+              </div>
+            </div>
+          </div>
+            <div class="row row-wrap category-items" ng-show="!arr.length">
+            <div class="category-item-tools col col-75">
+              <h3 class="ng-binding">Sorry ! No Coupons in this category</h3>
+            </div>
+          </div>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-pane>
+  <div class ="tabs tabs-icon-top"> <a class="tab-item color-gray" data-ui-sref="app.my-information-pin-reset"> <i class = "icon ion-person"></i> My Account </a> <a class = "tab-item color-gray" data-ui-sref="app.favorite"> <i class = "icon ion-star"></i> Favorite </a> <a class = "tab-item" data-ui-sref="app.categories"><img src="img/HOme@2x.png" width="60px" style="padding:0px 7px 7px 7px;" /></a> <a class = "tab-item color-gray" data-ui-sref="app.near-me"> <i class = "icon ion-location"></i> Near Me </a> <a class = "tab-item color-gray"> <i class = "icon ion-share"></i> Share </a> </div>
+</ion-view>

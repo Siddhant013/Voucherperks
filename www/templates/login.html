@@ -1,0 +1,41 @@
+<ion-view view-title="Login" hide-nav-bar="true">
+    <ion-content has-bouncing="false">
+        <form ng-submit="login(loginFrm, data)" class="invision-form" name="loginFrm" novalidate>
+            <div class="list list-inset">
+                <div class="item logo-big"> <img src="img/logo.png" alt="logo" /> </div>
+                <span id="loginMsg"></span>
+                <span class="assertive" ng-if="loginFrm.$submitted" ng-show="loginFrm.email.$error.required"><strong><small>* This field is required !</small></strong></span>
+                <span class="assertive" ng-if="loginFrm.$submitted" ng-show="loginFrm.email.$error.email"><strong><small>* Please enter a valid email address !</small></strong></span>
+                <label class="item item-input">
+                    <i class="icon ion-email placeholder-icon"></i>
+                    <input type="email" placeholder="Email" name="email" ng-model="data.email" required>
+                </label>
+                <span class="assertive" ng-if="loginFrm.$submitted" ng-show="loginFrm.password.$error.required"><strong><small>* This field is required !</small></strong></span>
+                <label class="item item-input">
+                    <i class="icon ion-search placeholder-icon"></i>
+                    <input type="password" placeholder="Password" name="password" ng-model="data.password" required>
+                </label>
+                <br>
+                <label class="item form-button">
+                    <button class="button button-block button-light" type="submit">Log in</button>
+                </label>
+                <div class="row form-links">
+                    <div class="col"><a data-ui-sref="app.forgetpassword">Forgot Password?</a></div>
+                </div>
+                <div class="row">
+                	<div class="col"> <label class="item">
+                    <button class="button button-primary" type="submit"><i class="ion-social-facebook"></i>&nbsp;&nbsp;&nbsp;Log in with Facebook </button></label></div></div>
+                    
+                <div class="row">
+                    <div class="col">
+                   <label class="item">
+                    <button class="button button-danger" type="submit"><i class="ion-social-google"></i>&nbsp;&nbsp;&nbsp;Log in with Google &nbsp; </button>
+                </label></div>
+                </div><br/>
+                <div class="row form-links">
+                    <div class="col"><span style="color:#000; magin-top:12px;<br/>">Dont have an account?</span> <a data-ui-sref="app.register">Create Account</a></div>
+                </div>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,80 @@
+<ion-view hide-nav-bar="false">
+    <!--<ion-tabs class="tabs-energized">
+			<ion-tab title="VOUCHERPERKS"> -->
+    
+    <ion-pane class="bg-homes">
+      <ion-content class="has-header">
+        <ion-list>
+          <div class="row row-wrap row-no-padding">
+            <ion-item class="col" style="min-height:190px; margin:auto 0px;">
+              <ion-content scroll="false">
+                <ion-slide-box class="slideshow" does-continue="true" show-pager="false" slide-interval="3000"auto-play="true" on-slide-changed="slideChanged(index)">
+                  <ion-slide>
+                    <div class="box"> <img src="img/DressLily Coupons.jpg" alt="" /> <strong>Magnificent Food</strong> </div>
+                  </ion-slide>
+                  <ion-slide>
+                    <div class="box"> <img src="img/fast-escrow-refills-coupon-code-banner.jpg" alt="" /> <strong>Magnificent Food</strong> </div>
+                  </ion-slide>
+                  <ion-slide>
+                    <div class="box"><img src="img/Takatack-Free-150-Shopping-Voucher-Coupon.png" alt="" /> <strong>Magnificent Food</strong> </div>
+                  </ion-slide>
+                </ion-slide-box>
+              </ion-content>
+            </ion-item>
+          </div>
+          <div class="row row-wrap row-no-padding category-items bg-home">
+            <div class="col col-50 col-offset-25">
+              <h3 style="color:#fff; font-size:14px; margin:5px 0px 0px 0px;">Welcome Back, {{USERNAME}}</h3>
+            </div>
+            <div class="col col-40">
+              <div class="col col-75 col-offset-10 box-title-left"><span>1582 AED <span class="box-title-sub-left">Saved so for this Year</span></span> </div>
+            </div>
+            <div class="col">
+              <div class="col col-75">
+                <div style="background:#f8f8f8; display:block; width:2px; height:100%; margin:10px 31px;">&nbsp;</div>
+              </div>
+            </div>
+            <div class="col col-40">
+              <div class="col col-75 col-offset-10 box-title-left"> <span>48 Offres <span class="box-title-sub-left">Redeemed</span></span> </div>
+            </div>
+          </div>
+          <div class="row row-wrap row-no-padding category-items">
+            <!--<ion-item class="col col-50" data-ng-repeat="category in categoriesCtrl.categories | orderBy:'id' | limitTo:4 track by $index" data-ui-sref="app.category({categoryId: category.id})">
+              <div class="item-image"> <img data-ng-src="{{category.img}}" alt="{{category.title}}" />
+                <h3>{{category.title}}</h3>
+              </div>
+            </ion-item>-->
+            <div class="col col-33" ng-click="getCategoryCoupon(1)">
+              <div class="col col-75 col-offset-10 box-data"> <img src="img/Layer_555@2x.png" width="50px" height="49px" style="padding:7px 7px 7px 7px;" /><span>Food & Drink</span> </div>
+            </div>
+            <div class="col col-33" ng-click="getCategoryCoupon(2)">
+              <div class="col col-75 col-offset-10 box-data" ><img src="img/Layer_556@2x.png" width="50px" height="49px" style="padding:7px 7px 7px 7px;" /><span>Beauty & Fitness</span> </div>
+            </div>
+            <div class="col col-33" ng-click="getCategoryCoupon(3)">
+              <div class="col col-75 col-offset-10 box-data"> <img src="img/Layer_557@2x.png" width="50px" height="49px" style="padding:7px 7px 7px 7px;" /> <span >Attraction & leisure</span> </div>
+            </div>
+          </div>
+          <div class="row row-wrap row-no-padding category-items">
+            <!--<ion-item class="col col-50" data-ng-repeat="category in categoriesCtrl.categories | orderBy:'id' | limitTo:4 track by $index" data-ui-sref="app.category({categoryId: category.id})">
+              <div class="item-image"> <img data-ng-src="{{category.img}}" alt="{{category.title}}" />
+                <h3>{{category.title}}</h3>
+              </div>
+            </ion-item>-->
+            <div class="col col-33" ng-click="getCategoryCoupon(4)">
+              <div class="col col-75 col-offset-10 box-data"> <img src="img/cart.png" width="50px" height="49px" style="padding:7px 7px 7px 7px;" /> <span>Retail & Services</span> </div>
+            </div>
+            <div class="col col-33" ng-click="getCategoryCoupon(5)">
+              <div class="col col-75 col-offset-10 box-data"><img src="img/hotel@2x.png" width="40px" height="49px" style="padding:7px 7px 7px 7px;" /> <span>Hotel & Travel</span> </div>
+            </div>
+            <div class="col col-33" ng-click="getCategoryCoupon(6)">
+              <div class="col col-75 col-offset-10 box-data"> <img src="img/Layer_558@2x.png" width="50px" height="49px" style="padding:7px 7px 7px 7px;" /> <span>Kids & Activities</span> </div>
+            </div>
+          </div>
+        </ion-list>
+      </ion-content>
+    </ion-pane>
+    <div class ="tabs tabs-icon-top"> <a class="tab-item color-gray" data-ui-sref="app.my-information-pin-reset"> <i class = "icon ion-person"></i> My Account </a> <a class = "tab-item color-gray" data-ui-sref="app.favorite"> <i class = "icon ion-star"></i> Favorite </a> <a class = "tab-item" data-ui-sref="app.categories"><img src="img/HOme@2x.png" width="60px" style="padding:0px 7px 7px 7px;" /></a> <a class = "tab-item color-gray" data-ui-sref="app.near-me"> <i class = "icon ion-location"></i> Near Me </a> <a class = "tab-item color-gray"> <i class = "icon ion-share"></i> Share </a> </div>
+</ion-view>
+<style type="text/css">
+.bg-homes{ background:#f7f7f7!important;}
+</style>

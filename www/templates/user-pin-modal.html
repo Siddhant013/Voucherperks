@@ -1,0 +1,42 @@
+<ion-modal-view>
+  <ion-header-bar class="bar-positive">
+    <h1 class="title">Enter User Pin</h1>
+    <button class="button modal-select-close-button" ng-click="appCtrl.closeModal()">Close</button>
+  </ion-header-bar>
+  <ion-content scroll="false" class="bg">
+    <div class="row bg">
+      <div class="col pin">
+        <h2>Kindly enter your PIN to confirm redemption</h2>
+      </div>
+    </div>
+    <div class="row bg" style="min-height:100px;">
+      <div class="col col-25">
+        <label class="item item-input left-1 item-input-cirle">
+        <input type="text" maxlength="1" class=" form-control " />
+        </label>
+      </div>
+      <div class="col col-25">
+        <label class="item item-input left-1 item-input-cirle">
+        <input type="text" maxlength="1" class=" form-control " />
+        </label>
+      </div>
+      <div class="col col-25">
+        <label class="item item-input left-1 item-input-cirle">
+        <input type="text" maxlength="1" class=" form-control " />
+        </label>
+      </div>
+      <div class="col col-25">
+        <label class="item item-input left-1 item-input-cirle">
+        <input type="text" maxlength="1" class=" form-control " />
+        </label>
+      </div>
+    </div>
+    <div class="row bg" style="min-height:100px;">
+      <div class="col col-50 col-offset-25">
+        <label class="item form-button">
+        <button class="button button-block button-light" type="submit" data-ng-click="appCtrl.openModal1(); appCtrl.closeModal()">Next</button>
+        </label>
+      </div>
+    </div>
+  </ion-content>
+</ion-modal-view>

@@ -1,0 +1,45 @@
+{
+	"totalRows": 8,
+	"rows": [
+		{
+			"id": 1,
+			"title": "Food & Drinks",
+			"img": "img/food.png"
+		},
+		{
+			"id": 2,
+			"title": "Beauty & Fitness",
+			"img": "img/fitness.png"
+		},
+		{
+			"id": 3,
+			"title": "Attraction & leisure",
+			"img": "img/hotel.png"
+		},
+		{
+			"id": 4,
+			"title": "Retail & Services",
+			"img": "img/retail.png"
+		},
+		{
+			"id": 5,
+			"title": "Hotel & Travel",
+			"img": "http://i.imgur.com/gpVSohI.png"
+		},
+		{
+			"id": 6,
+			"title": "Kids & Activities",
+			"img": "http://i.imgur.com/P2q3Uk8.png"
+		},
+		{
+			"id": 7,
+			"title": "Sport",
+			"img": "http://i.imgur.com/r6XV9GG.png"
+		},
+		{
+			"id": 8,
+			"title": "Travel",
+			"img": "http://i.imgur.com/LPVCdsP.png"
+		}
+	]
+}

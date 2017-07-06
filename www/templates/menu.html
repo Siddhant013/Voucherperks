@@ -1,0 +1,86 @@
+<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-positive">
+            <ion-nav-back-button></ion-nav-back-button>
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left" data-ng-if="appCtrl.showMenu"></button>
+            </ion-nav-buttons>
+            <ion-nav-buttons side="right">
+                <div class="item item-input-inset"> <a data-ui-sref="app.trending"><i class="icon ion-arrow-graph-up-right" style="font-size:22px;"></i></a> <a><i class="icon ion-social-usd-outline" style="font-size:22px;"></i></a> <a><i class="icon ion-search" style="font-size:22px;"></i></a></div>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu side="left" class="full-page-bckg-menu">
+        <ion-content>
+            <div class="item logo-big"> <img src="img/logo.png" alt="logo" width="40px" /> </div>
+            <ion-list>
+                <!--                <ion-item menu-close data-ui-sref="app.my-information-pin-reset" class="menu-list-item">
+                                    <i class="icon ion-ios-paper-outline placeholder-icon"></i>
+                                    My Information <i class="icon ion-chevron-right"></i></ion-item>-->
+                <div class="item item-complex" ng-click="getProfile()">
+                    <a class="item-content" style="padding: 11px 0px 0px 11px!important; font-weight: 600 !important;">
+                        My Information <i class="icon ion-chevron-right"></i>
+                    </a>
+                </div>
+                <!--<ion-item menu-close data-ui-sref="app.category({categoryId: 6})">
+                                                <i class="icon ion-ios-paper-outline placeholder-icon"></i>
+                                                Sample Category
+                                        </ion-item>
+                                        <ion-item menu-close data-ui-sref="app.category-featured({categoryId: 1})">
+                                                <i class="icon ion-ios-paper-outline placeholder-icon"></i>
+                                                Featured Category 
+                                        </ion-item>
+                                        <ion-item menu-close data-ui-sref="app.item({itemId: 2})">
+                                                <i class="icon ion-ios-copy-outline placeholder-icon"></i>
+                                                Item
+                                        </ion-item>
+                                        <ion-item menu-close data-ui-sref="app.comments">
+                                                <i class="icon ion-ios-chatbubble-outline placeholder-icon"></i>
+                                                Comments
+                                        </ion-item>-->
+                <ion-item menu-close data-ui-sref="app.redemption-details" class="menu-list-item">
+                    <!--<i class="icon ion-ios-person-outline placeholder-icon"></i> -->
+                    Redemption History <i class="icon ion-chevron-right"></i></ion-item>
+                </ion-item>
+                <ion-item menu-close data-ui-sref="app.how-it-works" class="menu-list-item">
+                    <!--<i class="icon ion-ios-personadd-outline placeholder-icon"></i>-->
+                    How It Works <i class="icon ion-chevron-right"></i></ion-item>
+                </ion-item>
+                <!--<ion-item menu-close data-ng-click="appCtrl.openModal()" class="item-complex">
+                                                <a class="item-content">
+                                                        <i class="icon ion-ios-albums-outline placeholder-icon"></i>
+                                                        Modal Window
+                                                </a>
+                                        </ion-item> -->
+                <ion-item menu-close data-ui-sref="app.terms" class="menu-list-item">
+                    <!--<i class="icon ion-ios-list-outline placeholder-icon"></i>-->
+                    Terms &amp; Conditions <i class="icon ion-chevron-right"></i></ion-item>
+                </ion-item>
+                <ion-item menu-close data-ui-sref="app.terms" class="menu-list-item">
+                    <!--<i class="icon ion-ios-list-outline placeholder-icon"></i>-->
+                    Notification <i class="icon ion-chevron-right"></i></ion-item>
+                </ion-item>
+
+                <ion-item menu-close data-ui-sref="app.terms" class="menu-list-item">
+                    <!--<i class="icon ion-ios-list-outline placeholder-icon"></i>-->
+                    Location <i class="icon ion-chevron-right"></i></ion-item>
+                </ion-item>
+                <ion-item menu-close data-ui-sref="app.help" class="menu-list-item">
+                    <!--<i class="icon ion-ios-help-outline placeholder-icon"></i>-->
+                    Help <i class="icon ion-chevron-right"></i></ion-item>
+                </ion-item>
+                <!--<ion-item menu-close data-ui-sref="app.slideshow({forceShow: true})">
+                                                <i class="icon ion-ios-barcode-outline placeholder-icon"></i>
+                                                Slideshow
+                                        </ion-item> -->
+                <div class="item item-complex" ng-click="logout()">
+                    <a class="item-content" style="padding: 11px 0px 0px 11px!important; font-weight: 600 !important;">
+                        Logout <i class="icon ion-chevron-right"></i>
+                    </a>
+                </div>
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>

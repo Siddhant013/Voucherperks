@@ -1,0 +1,74 @@
+{
+	"totalRows": 8,
+	"rows": [{
+		"id": 1,
+		"title": "30% flat discount",
+		"description": "<p>Crispy chicken tossed in our spicy Buffalo sauce with smoked beef bacon, blue cheese crumbles, house-made pico de gallo & crispy tortilla strips, with house made ranch dressing & a drizzle of chile sauce.</p>",
+		"img": "img/img1.png",
+		"category": 1,
+		"source": "Chili's",
+		"link": "",
+		"date": "1453125265820",
+		"featured": true
+	}, {
+		"id": 2,
+		"title": "Get free nachos on purchase of 4 tacos",
+		"description": "<p>When jewelry designer Isabel Encinias met ready-to-wear designer Mark Kroeker at a fashion party some two decades ago, the pair quickly bonded over their nomadic upbringings: Kroeker grew up between Istanbul and Tehran before moving to the States as a teen; Encinias bounced between New Mexico and Paris. Fast-forward to 2014, when despite the logistical challenges—Encinias was based in Paris, where she had worked as a designer for Boucheron, Louis Vuitton, and Fabergé; and Kroeker in New York, where he had launched his own brand, Mark Kroeker/Lost Collective, and served as creative director of Donna Karan's philanthropic lifestyle brand Urban Zen—the two launched Tejen (the ancient Egyptian word for \"needle of stone\"), a fine-jewelry line rooted in obelisklike forms. \"We're both fascinated with ancient architecture,\" Kroeker says. \"And we loved the lore that obelisks were placed next to sacred spots to disperse negative energy.\"</p><p>Made of fair-mined (exclusively from small-scale miners who employ strict labor protections), first-cast gold and conflict-free diamonds, each piece is manufactured by hand in the Lorraine region of France. \"It's really sacred geometry: Any way you slice it, there's a perfect square, triangle, or circle,\" says Encinias, explaining the sort of high-jewelry cuneiform they've created. At the forefront is their \"capstone\" setting, a technical feat in which five diamonds form a pyramid, allowing light to filter from all angles.</p>",
+		"img": "img/img3.png",
+		"category": 1,
+		"source": "Taco Bell",
+		"link": "",
+		"date": "1453125265820",
+		"featured": false
+	}, {
+		"id": 3,
+		"title": "Get a free burger on purchase of 3",
+		"description": "<p>Hilary Rhoda is involved in a legal dispute with her mother - and former manager - Marianne Rhoda, claiming that she stole a six-figure sum from the model. The lawsuit - which was filed in 2014 - has come to light now as Marianne is countersuing her daughter, denying all the allegations and claiming breach of contract.</p><p>The Victoria's Secret model's case claims that her mother \"manipulated her familial role to improperly seize - and then abuse - enormous power over Hilary's finances,\" according to Page Six, which reports that \"the suit claims Marianne forged Hilary's signature, diverted 'substantial funds' for her retirement, refused to provide accounting records and used a company credit card 'for hundreds of thousands of dollars' in personal expenses - including 'divorce attorneys', a 'pool vendor' and shopping trips.\" She is also accused of withdrawing and transferring $2.9 million from her daughter's account to her personal account - in moves allegedly unrelated to her daughter's modelling career.</p><iframe width = '100%' height = '212' src = 'https://www.youtube.com/embed/R38YEfWynmo' frameborder = '0' allowfullscreen > </iframe><p>In the countersuit, the former manager cites Hilary's husband, NHL player Sean Avery, as a key figure in the breakdown in communication between herself and her only child, stating that she was \"concerned\" for Hilary's financial future after \"Avery prevailed upon Hilary to refrain from seeking a prenuptial agreement and embarked on a concerted effort to estrange\" her from her mother. She also claims that after leaving the NHL his work was \"sporadic\" and \"prospects for employment were highly speculative\".</p>",
+		"img": "img/img2.png",
+		"category": 1,
+		"source": "Burger King",
+		"link": "",
+		"date": "1453125265820",
+		"featured": false
+	}, {
+		"id": 4,
+		"title": "Buy 1 small pizza on purchase of large or 2 medium",
+		"description": "<p>Kate Bosworth just shared a photo of herself test-driving her pink disco ball of a Dolce & Gabbana gown on her way to the Golden Globes. Which is wise, because because when you're weighted down by that many sequins, you want to make sure an over-enthusiastic twirl won't send you careening into Ryan Seacrest's face.</p><p>The look is very Little Mermaid Gets a Malibu Barbie makeover—sequin fins are major #goals, right? And the tight top knot is definitely aquatic-friendly.</p><p>The actress also posted a video of her getting-ready process, which includes a lot of diamonds, hair fluffing, and pretty primping moments.</p>",
+		"img": "img/img4.png",
+		"category": 1,
+		"source": "Pizza Hut",
+		"link": "",
+		"date": "1453125265820",
+		"featured": false
+	}, {
+		"id": 5,
+		"title": "Buy 1 small pizza on purchase of large or 2 medium",
+		"description": "<p>Kate Bosworth just shared a photo of herself test-driving her pink disco ball of a Dolce & Gabbana gown on her way to the Golden Globes. Which is wise, because because when you're weighted down by that many sequins, you want to make sure an over-enthusiastic twirl won't send you careening into Ryan Seacrest's face.</p><p>The look is very Little Mermaid Gets a Malibu Barbie makeover—sequin fins are major #goals, right? And the tight top knot is definitely aquatic-friendly.</p><p>The actress also posted a video of her getting-ready process, which includes a lot of diamonds, hair fluffing, and pretty primping moments.</p>",
+		"img": "img/img4.png",
+		"category": 1,
+		"source": "Pizza Hut",
+		"link": "",
+		"date": "1453125265820",
+		"featured": false
+	}, {
+		"id": 6,
+		"title": "Buy 1 small pizza on purchase of large or 2 medium",
+		"description": "<p>Kate Bosworth just shared a photo of herself test-driving her pink disco ball of a Dolce & Gabbana gown on her way to the Golden Globes. Which is wise, because because when you're weighted down by that many sequins, you want to make sure an over-enthusiastic twirl won't send you careening into Ryan Seacrest's face.</p><p>The look is very Little Mermaid Gets a Malibu Barbie makeover—sequin fins are major #goals, right? And the tight top knot is definitely aquatic-friendly.</p><p>The actress also posted a video of her getting-ready process, which includes a lot of diamonds, hair fluffing, and pretty primping moments.</p>",
+		"img": "img/img4.png",
+		"category": 1,
+		"source": "Pizza Hut",
+		"link": "",
+		"date": "1453125265820",
+		"featured": false
+	},{
+		"id": 7,
+		"title": "Buy 1 small pizza on purchase of large or 2 medium",
+		"description": "<p>Kate Bosworth just shared a photo of herself test-driving her pink disco ball of a Dolce & Gabbana gown on her way to the Golden Globes. Which is wise, because because when you're weighted down by that many sequins, you want to make sure an over-enthusiastic twirl won't send you careening into Ryan Seacrest's face.</p><p>The look is very Little Mermaid Gets a Malibu Barbie makeover—sequin fins are major #goals, right? And the tight top knot is definitely aquatic-friendly.</p><p>The actress also posted a video of her getting-ready process, which includes a lot of diamonds, hair fluffing, and pretty primping moments.</p>",
+		"img": "img/img4.png",
+		"category": 1,
+		"source": "Pizza Hut",
+		"link": "",
+		"date": "1453125265820",
+		"featured": false
+	}]
+}

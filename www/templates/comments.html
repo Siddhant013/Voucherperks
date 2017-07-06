@@ -1,0 +1,51 @@
+<ion-view view-title="Comments">
+	<ion-pane>
+		<ion-tabs class="tabs-energized">
+			<ion-tab title="Best">
+				<ion-pane>
+					<ion-content class="has-header">
+						<ion-list>
+							<ion-item class="user-info" ng-repeat="comment in commentsCtrl.comments | orderBy:'time' track by $index">
+								<img class="user-avatar" data-ng-src="{{comment.user.avatar}}" />
+								<div class="user-comment">
+									<h4>{{comment.user.firstName}} {{comment.user.lastName}}</h4>
+									<p>{{comment.description}}</p>
+								</div>
+							</ion-item>
+						</ion-list>
+					</ion-content>
+				</ion-pane>
+			</ion-tab>
+			<ion-tab title="Newest">
+				<ion-pane>
+					<ion-content class="has-header">
+						<ion-list>
+							<ion-item class="user-info" ng-repeat="comment in commentsCtrl.comments | orderBy:'likes' track by $index">
+								<img class="user-avatar" data-ng-src="{{comment.user.avatar}}" />
+								<div class="user-comment">
+									<h4>{{comment.user.firstName}} {{comment.user.lastName}}</h4>
+									<p>{{comment.description}}</p>
+								</div>
+							</ion-item>
+						</ion-list>
+					</ion-content>
+				</ion-pane>
+			</ion-tab>
+			<ion-tab title="Oldest">
+				<ion-pane>
+					<ion-content class="has-header">
+						<ion-list>
+							<ion-item class="user-info" ng-repeat="comment in commentsCtrl.comments | orderBy:'-time' track by $index">
+								<img class="user-avatar" data-ng-src="{{comment.user.avatar}}" />
+								<div class="user-comment">
+									<h4>{{comment.user.firstName}} {{comment.user.lastName}}</h4>
+									<p>{{comment.description}}</p>
+								</div>
+							</ion-item>
+						</ion-list>
+					</ion-content>
+				</ion-pane>
+			</ion-tab>
+		</ion-tabs>
+	</ion-pane>
+</ion-view>

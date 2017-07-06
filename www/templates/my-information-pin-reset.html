@@ -1,0 +1,63 @@
+<ion-view hide-nav-bar="false">
+  <ion-content has-bouncing="false">
+   <div class="clearfix">&nbsp;</div>
+    <form ng-submit="updateInformation(value)" class="invision-form">
+      <div class="list list-inset">
+        <label class="item item-input">
+            <input type="text" placeholder="First Name" class="item-input-gray" name="firstname" ng-model="value.firstname"  ng-value="value.firstname" />
+        </label>
+        <label class="item item-input">
+            <input type="text" placeholder="Last Name" class="item-input-gray" ng-model="value.lastname" ng-value="value.lastname">
+        </label>
+        <label class="item item-input">
+            <input type="email" placeholder="Email" class="item-input-gray" ng-model="value.email" ng-value="value.email">
+        </label>
+        <label class="item item-input">
+            <input type="text" placeholder="Mobile" class="item-input-gray" ng-model="value.mobile" ng-value="value.mobile">
+        </label>
+        <label class="item item-input">
+            <input type="text" placeholder="Country" class="item-input-gray" ng-model="value.country" ng-value="value.country">
+        </label>
+        <label class="item item-input">
+            <input type="text" placeholder="Currency" class="item-input-gray" ng-model="value.currency" ng-value="value.currency">
+        </label>
+        <div class="row">
+          <div class="col pin">
+            <h2>Reset PIN</h2>
+          </div>
+        </div>
+        <div class="row" style="min-height:100px;">
+        <div class="col col-25">
+          <label class="item item-input left-1 item-input-cirle">
+              <input type="number" maxlength="1" class=" form-control add-border" string-to-number ng-model="value.a" ng-value="value.a" />
+          </label>
+        </div>
+        <div class="col col-25">
+          <label class="item item-input left-1 item-input-cirle">
+          <input type="number" maxlength="1" class=" form-control add-border" string-to-number ng-model="value.b"  ng-value="value.b" />
+          </label>
+        </div>
+        <div class="col col-25">
+          <label class="item item-input left-1 item-input-cirle">
+          <input type="number" maxlength="1" class=" form-control add-border" string-to-number ng-model="value.c" ng-value="value.c" />
+          </label>
+        </div>
+        <div class="col col-25">
+          <label class="item item-input left-1 item-input-cirle">
+          <input type="number" maxlength="1" class=" form-control add-border" string-to-number ng-model="value.d" ng-value="value.d" />
+          </label>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col">
+            <label class="item form-button">
+			<br/>
+                        <button  type="submit" class="voucher-button col" href="#">Update</button>
+            </label>
+          </div>
+        </div>
+      </div>
+    </form>
+  </ion-content>
+  <div class ="tabs tabs-icon-top"> <a class="tab-item color-gray" data-ui-sref="app.my-information-pin-reset"> <i class = "icon ion-person"></i> My Account </a> <a class = "tab-item color-gray" data-ui-sref="app.favorite"> <i class = "icon ion-star"></i> Favorite </a> <a class = "tab-item" data-ui-sref="app.categories"><img src="img/HOme@2x.png" width="60px" style="padding:0px 7px 7px 7px;" /></a> <a class = "tab-item color-gray" data-ui-sref="app.near-me"> <i class = "icon ion-location"></i> Near Me </a> <a class = "tab-item color-gray"> <i class = "icon ion-share"></i> Share </a> </div>
+</ion-view>
